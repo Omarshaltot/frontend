@@ -1,0 +1,23 @@
+/* story start */
+*{
+    box-sizing: border-box;
+}
+.parent{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    padding:50px;
+    overflow: auto;
+}
+.test{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+   position: relative;
+   top: -50%;
+}
+
+
+
+
+/* start end */

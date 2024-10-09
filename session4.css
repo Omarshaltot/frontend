@@ -1,0 +1,36 @@
+.parent{
+    background-color: aqua;
+    height: 400px;
+    display: flex;  
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.item{
+    width: 20%;
+}
+
+.item1{
+    background-color: red;
+}
+
+.item2{
+    background-color: blue;
+}
+
+.item3{
+    background-color:green;
+}
+
+.item4{
+    background-color:black;
+}
+
+.item5{
+    background-color:tomato;
+}
+
+
+.item6{
+    background-color:purple;
+}
