@@ -1,0 +1,29 @@
+h1{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    overflow: auto;
+
+}
+h1::after{
+    background-color: transparent;
+    content: " ";
+    height: 15px;
+    width: 60px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: absolute;
+    right: 48.3%;
+    bottom: -60%;
+}
+h1::before{
+    background-color: transparent;
+    content: " ";
+    height: 15px;
+    width: 100px;
+    border-top: 3px solid red;
+    position: absolute;
+    right: 47.3%;
+    bottom: -75%;
+}
