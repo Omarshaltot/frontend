@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+}
+/* home starts  */
+.navbar{
+    margin: auto;
+    width: 80%;
+}
+.back{
+    background-image: url("drew-coffman-1872.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.links{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.icon{
+    float: left;
+}
+.icon img{
+    padding-top: 5%;
+    width: 60%;
+}
+.links li{
+    color: #fff;
+    font-size: 18px;
+    list-style: none;
+    font-family: "Alegreya";
+    float: left;
+    margin: 20px;
+    padding-top:5% ;
+}
+.btn{
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius:4px ;
+    color: #fff;
+    transition: 0.3s;
+    margin: 5px;
+}
+.btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+}
+.btn1{
+    border: none;
+    background-color:#8e7754 ;
+}
+.btn2{
+    border: 2px solid white;
+    background-color: transparent;
+}
+.content{
+    text-align: center;
+    margin-top: 10%;
+}
+.content h1{
+    margin-bottom:18px ;
+   font-weight: 400;
+   font-size: 76px; 
+    font-family: "Alegreya";
+    color: #fff;
+}
+.content p{
+    margin-bottom: 5px;
+    
+    margin-bottom:18px ;
+   font-weight: 400;
+   font-size: 26px; 
+    font-family: "Alegreya Sans";
+    color: #fff;
+}
+/* home ends */
+
+
+
+/* start of who we */
+.whoWeAre{
+    
+    background-color: white;
+}
+.whocontent ul li img{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+}
+.image {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6% 6% 10% 15%;
+    
+}
+.image img{
+   height: 500px;
+}
+.whocontent{
+   
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.whocontent h2{
+    font-family: "Algreya";
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: rgb(48,48, 48);
+}
+.whocontent li{
+    padding: 15px;
+    margin-bottom: 2px;
+    list-style: none;
+    line-height: 44px;
+    font-size: 17px;
+    font-family: "alegreya sans";
+    line-height: 32px;
+    color: rgb(48,48, 48);
+    font-weight: 400;
+}
+.whocontent ul{
+    padding-left: 0;
+    text-align: start;
+}
+.whocontent span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.192) ;
+    margin-right: 20px;
+}
+.whocontent p{
+    font-size: 17px;
+    font-family: "alegreya sans";
+    line-height: 32px;
+    color: rgb(48,48, 48);
+    font-weight: 400;
+}
+
+/* end of who we are */
+
+
+
+/* start our location */
+
+.ourLocation{
+    
+    background-color: #f8f8f8 ;
+}
+.loc{
+    padding: 10px;
+    margin-left:2% ;
+    
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+.loc .image img{
+height: 450px;
+}
+.loc .image{
+    vertical-align: middle;
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 70px;
+}
+.loc p {
+   margin-top: 10%; 
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+    text-align: start;
+}
+.loc h2{
+    
+    display: inline-block;
+    float: left;
+    
+}
+
+/* end if our location */
+
+
+/* start of ou backing */
+.ourLocation{
+    width: 100%;
+}
+
+.head{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.phto{
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+}
+.phto img{
+    width: 300px;
+}
+/* .Bimage{
+    background-color: aqua;
+    margin-right: auto;
+    margin-left: auto;
+} */
+ .backingcontent{
+    display: inline-block;
+    margin-left:12%;
+    
+ }
+ .Bcontent p{
+    font-size: 17px;
+    font-family: "alegreya sans";
+    line-height: 32px;
+    color: rgb(104, 104, 104);
+    font-weight: 400;
+ }
+ .Bcontent h4 , .head p{
+    font-size: 17px;
+    font-family: "alegreya sans";
+    line-height: 32px;
+    color: rgb(104, 104, 104);
+    font-weight: 400;
+ }
+
+ .head h3{
+    color: #303030;
+    font-size: 30px;
+    font-family: "alegreya";
+    line-height: 32px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-weight: 400;
+ }
+/* the end of ou backing */
+
+
+/* start of contact info */
+
+.map{
+   
+    margin: 2%;
+    float: right;
+    padding-bottom: 5%;
+}
+.contactinfo{
+    background-color: #f8f8f8 ;
+}
+.contactinfo .whocontent{
+    margin-left: 10%;
+}
+
+.contactinfo .whocontent ul li span{
+    background-color:#8e7754  ;
+    
+}
+
+
+/* end of contact info  */
+
+
+/* start of the footer */
+.footertop{
+    padding-top: 8%;
+    padding-left:15% ;
+    text-align: center;
+    background-color: #403d38;
+}
+.fcontent{
+    width: 19%;
+    text-align: center;
+    float: left;
+    
+}
+.fcontent ul li{
+   
+    margin: 10%;
+    border-bottom: 2px solid ;
+    text-align: start;
+    list-style: none;
+    font-size: 13px;
+    font-family: "alegreya sans";
+    line-height: 32px;
+    color: #969696;
+    font-weight: 400;
+    text-align: start;
+}
+.fcontent ul li img{
+   width: 20px;
+}
+.fcontent ul li span{
+   
+   vertical-align: middle;
+   display: inline-block;
+ }
+.fcontent p{
+    font-size: 17px;
+    font-family: "alegreya sans";
+    line-height: 32px;
+    color: #969696;
+    font-weight: 400;
+    text-align: start;
+}
+ .fcontent h4{
+    color: #fff;
+    font-size: 18px;
+    font-family: "alegreya";
+    line-height: 32px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-weight: 400;
+ }
+ .bck{
+    background-image: url("contact-details-map.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    
+}
+ /* footer bot */
+
+.footerbot{
+    background-color:  #353330;
+}
+
+.fbimage{
+    text-align: center;
+    padding: 50px 20px;
+}
+.copyright{
+    text-align: center;
+    opacity: 1;
+    color: #777;
+    font-family: "alegreya Sans";
+    line-height: 32px;
+    font-weight: 400;
+}
+.buttons .facebook{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #484540;
+    background-image: url("facebook.png");
+    background-position:center;
+    background-size: contain;
+    border: none;
+}
+.buttons .google{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #484540;
+    background-image: url("google.png");
+    background-position:center;
+    background-size: contain;
+    border: none;
+}
+.buttons .linin{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #484540;
+    background-image: url("linkedin.png");
+    background-position:center;
+    background-size: contain;
+    border: none;
+}
+.buttons .twiter{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #484540;
+    background-image: url("twitter.png");
+    background-position:center;
+    background-size: contain;
+    border: none;
+}
+button:hover{
+    transition: 0.3s;
+    cursor: pointer;
+}
+ .facebook:hover{
+    background-color: #1877F2;
+ }
+ .google:hover{
+    background-color: #EA4335;
+ }
+ .linin:hover{
+    background-color: #0077B5;
+ }
+.twiter:hover{
+    background-color: 	#1DA1F2;
+}
+
+.buttons{
+    padding-bottom: 5%;
+    text-align: center;
+}
+
