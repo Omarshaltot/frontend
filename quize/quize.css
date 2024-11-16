@@ -576,7 +576,7 @@ body {
 }
 
 .whoweare {
-    height: 60vh;
+    height: 70vh;
 }
 
 
@@ -591,9 +591,6 @@ body {
     color: #787878;
     font-size: 20px;
     fontamily: "Source Sans Pro", sans-serif;
-
-
-
 }
 
 .whoweare1 {
@@ -684,7 +681,7 @@ body {
     opacity: 0.1;
     z-index: -1;
     content: "C";
-    transform: translate(200%, -40%);
+    transform: translate(200%, -30%);
 }
 
 
@@ -801,3 +798,285 @@ body {
 
 
 /* creative team ends */
+/* information starts */
+
+.information {
+    height: 70vh;
+    background-color: #626262;
+}
+
+.info {
+    position: inherit;
+    margin: 10% 30px;
+    color: white;
+
+}
+
+.info h4 {
+    font-size: 20px;
+}
+
+.whatdowedo {
+    background-color: #626262;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whatdowedo .content {
+    width: 40%;
+}
+
+.whatdowedo .content h2 {
+    color: white;
+    font-family: 'Poppins' sans-serif;
+    font-size: 38px;
+}
+
+.whatdowedo .content p {
+    color: #fff;
+    text-align: start;
+    margin-bottom: 10%;
+}
+
+.whatdowedo .content::before {
+    position: absolute;
+    color: #fff;
+    text-align: start;
+    font-size: 90px;
+    font-weight: 700;
+    opacity: 0.1;
+    content: "w";
+    transform: translate(-155%, -50%);
+
+}
+
+.here {
+    text-align: center;
+}
+
+.lists ul li {
+    margin: 15px 0%;
+    text-align: start;
+    list-style: none;
+}
+
+@media (max-width: 900px) {
+    .whatdowedo {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whatdowedo .content {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .whatdowedo .content p {
+        padding-left: 20%;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        color: #fff;
+        text-align: center;
+
+    }
+}
+
+/* prices starts */
+.prices {
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.cards {
+    margin: 50px 20px;
+    height: 500px;
+    width: 16%;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+}
+
+.cards h4 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins' sans-serif;
+}
+
+.prices-cards {
+    display: block;
+}
+
+.cardss h4 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins' sans-serif;
+}
+
+.cardss {
+    margin: 50px 20px;
+    height: 550px;
+    width: 17%;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    transform: translateY(-5%);
+}
+
+.cards ul li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+
+.cards .btn {
+    color: white;
+    margin: 10px;
+    background-color: var(--main-color);
+}
+
+.cardss ul li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+
+.cardss .btn {
+    color: white;
+    margin: 10px;
+    background-color: var(--main-color);
+}
+
+.cardss h2 {
+    color: var(--main-color);
+}
+
+.ro {
+    margin: 0px 70px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+
+/* contact form starts */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 10%;
+    background-color: white;
+    z-index: -1;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+    border-color: var(--main-color);
+    outline: none;
+}
+
+.contact-form .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form .btn-submit:hover {
+    background-color: #009bb5;
+}
+
+.contact-form .btn {
+    color: white;
+    background-color: var(--main-color);
+    height: 50px;
+}
+
+.maps {
+    height: 100vh;
+}
+
+
+.contacts .head .label {
+    position: relative;
+    top: -65px;
+    left: 90px;
+
+}
+
+.contacts .head p {
+    position: relative;
+    top: -60px;
+    left: 50px;
+}
+
+
+.contacts .label::before {
+    text-align: center;
+    position: absolute;
+    font-size: 60px;
+    font-weight: 700;
+    opacity: 0.1;
+    z-index: 1;
+    content: "G";
+    transform: translate(-10%, -30%);
+}
+
+
+/* contact form ends */
