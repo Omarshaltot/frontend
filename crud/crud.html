@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="crud.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>crud</title>
+  </head>
+
+  <body>
+    <h1 class="text-center py-3">Store mangment system</h1>
+    <div class="w-75 mx-auto">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control border-start-0 rounded-0 border-end-0 border-top-0 border-black"
+          id="floatingName"
+          placeholder="name@example.com"
+        />
+        <label for="floatingName">Product Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="number"
+          class="form-control border-start-0 rounded-0 border-end-0 border-top-0 border-black"
+          id="floatingPrice"
+          placeholder="price"
+        />
+        <label for="floatingPrice">Product Price</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          list="category"
+          class="form-control border-start-0 rounded-0 border-end-0 border-top-0 border-black"
+          id="floatingCategory"
+          placeholder="category"
+        />
+        <label for="">Product Category</label>
+
+        <datalist class="category">
+          <option value="tv"></option>
+          <option value="laptop"></option>
+          <option value="phone"></option>
+          <option value="microwave"></option>
+          <option value="slaves"></option>
+        </datalist>
+      </div>
+
+      <div class="form-floating mb-3">
+        <textarea
+          type="text"
+          class="form-control border-start-0 rounded-0 border-end-0 border-top-0 border-black"
+          id="floatingDescription"
+          placeholder="category"
+        >
+        </textarea>
+        <label for="floatingDescription">Product Description</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="file"
+          class="form-control border-start-0 rounded-0 border-end-0 border-top-0 border-black"
+          id="floatingImage"
+          placeholder="image"
+        />
+        <label for="floatingImage">Product Image</label>
+      </div>
+      <button type="submit" class="btn btn-primary" onclick="save()">
+        Add Product
+      </button>
+    </div>
+
+    <div
+      id="rowData"
+      class="container py-5 d-flex justify-content-around flex-wrap"
+    ></div>
+
+    <script src="crud.js"></script>
+  </body>
+</html>
